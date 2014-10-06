@@ -36,4 +36,18 @@ A Torque-System, where RPM is calculated with wheel RPM, gear-ratio and differen
 A Resistance-System, which creates a resistance force with relative drag, rolling resistance, air-density, side-area-multiplier and front-area-multiplier.
 
 
+3) AI
+
+AI mainly has three parts, One is the AI car control, which follows the same physics as the player car with AI component controlling it's acceleration, hand-brakes and turnings. Second component helps the AI cars to avoid collisions with other cars and obstacles. Final component is the waypoint search  which draws the path for AI car to follow.
+
+4) Camera Transformation 
+
+Multiple cameras are being used with the primary camera set to follow-mode. 
+
+5) Shaders
+
+Various pre-built shaders are used for car's reflections.
+
+
+
 
